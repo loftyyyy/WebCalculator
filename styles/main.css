@@ -1,0 +1,37 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+button{
+    background-color: #EFCB68;
+    border-radius: 5px;
+    border: none;
+}
+#mainContainer {
+    display: flex;
+    flex-direction: column; /* Adjust as needed */
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 400px; /* Example: Limit maximum width */
+    height: auto; /* Adjust height as per content */
+    padding: 20px; /* Optional: Adjust padding for better spacing */
+}
+
+#calculatorInput {
+    height: 60px;
+    width: 223px;
+    margin-bottom: 9px;
+}
+div.buttonContainer {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(4, 50px);
+    grid-template-rows: repeat(5, 50px);
+}
+
